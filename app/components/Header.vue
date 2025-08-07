@@ -1,46 +1,47 @@
 <template>
-  <header class="w-full bg-white shadow-sm">
+  <header class="w-full bg-[#3138C0] shadow-sm text-white">
     <div
       class="max-w-screen-xl mx-auto flex items-center justify-between py-2 px-4"
     >
       <!-- Logo -->
       <div class="flex items-center gap-2">
-        <!-- <img src="/images/avt_1.png" alt="Logo" class="h-10 w-auto" /> -->
-        <span class="text-orange-500 text-sm">Chăm Sóc Xe Phú Giáo</span>
+        <span class="text-white text-sm font-semibold">
+          Chăm Sóc Xe Phú Giáo
+        </span>
       </div>
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-4 text-sm font-semibold">
-        <span class="text-blue-800">TRANG CHỦ</span>
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >GIỚI THIỆU</span
-        >
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >DỊCH VỤ</span
-        >
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >HỆ THỐNG</span
-        >
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >TUYỂN DỤNG</span
-        >
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >TIN TỨC</span
-        >
-        <span class="text-gray-400">◊</span>
-        <span class="text-gray-800 hover:text-blue-600 cursor-pointer"
-          >LIÊN HỆ</span
-        >
+        <span class="text-white">TRANG CHỦ</span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          GIỚI THIỆU
+        </span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          DỊCH VỤ
+        </span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          HỆ THỐNG
+        </span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          TUYỂN DỤNG
+        </span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          TIN TỨC
+        </span>
+        <span class="text-white/30">◊</span>
+        <span class="text-white hover:text-orange-400 cursor-pointer">
+          LIÊN HỆ
+        </span>
       </nav>
 
       <!-- Mobile Hamburger -->
       <button
-        class="md:hidden text-gray-700 focus:outline-none"
+        class="md:hidden text-white focus:outline-none"
         @click="toggleMenu"
       >
         <svg
@@ -63,15 +64,15 @@
     <!-- Mobile Menu -->
     <div
       v-if="menuOpen"
-      class="md:hidden px-4 py-2 space-y-2 bg-white shadow-md"
+      class="md:hidden px-4 py-2 space-y-2 bg-[#3138C0] text-white shadow-md"
     >
-      <span class="block text-blue-800">TRANG CHỦ</span>
-      <span class="block text-gray-800">GIỚI THIỆU</span>
-      <span class="block text-gray-800">DỊCH VỤ</span>
-      <span class="block text-gray-800">HỆ THỐNG</span>
-      <span class="block text-gray-800">TUYỂN DỤNG</span>
-      <span class="block text-gray-800">TIN TỨC</span>
-      <span class="block text-gray-800">LIÊN HỆ</span>
+      <span class="block text-white">TRANG CHỦ</span>
+      <span class="block text-white hover:text-orange-400">GIỚI THIỆU</span>
+      <span class="block text-white hover:text-orange-400">DỊCH VỤ</span>
+      <span class="block text-white hover:text-orange-400">HỆ THỐNG</span>
+      <span class="block text-white hover:text-orange-400">TUYỂN DỤNG</span>
+      <span class="block text-white hover:text-orange-400">TIN TỨC</span>
+      <span class="block text-white hover:text-orange-400">LIÊN HỆ</span>
     </div>
   </header>
 </template>
@@ -79,7 +80,6 @@
 <script setup>
 import { ref } from "vue";
 const menuOpen = ref(false);
-
 function toggleMenu() {
   menuOpen.value = !menuOpen.value;
 }
