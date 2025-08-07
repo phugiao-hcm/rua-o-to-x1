@@ -11,10 +11,10 @@
         <h3
           class="text-2xl md:text-3xl font-extrabold text-orange-500 italic mb-4"
         >
-          WWW.HETHONGCHAMSOCXE.COM
+          CHĂM SÓC XE PHÚ GIÁO
         </h3>
         <p class="font-semibold mb-2">
-          Chào mừng Quý khách hàng đến với hethongchamsocxe.com
+          Chào mừng Quý khách hàng đến với hệ thống chăm sóc xe
         </p>
         <p class="text-sm md:text-base text-gray-700">
           Đến với chúng tôi Quý khách hoàn toàn có thể yên tâm và tin tưởng về

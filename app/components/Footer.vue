@@ -34,7 +34,7 @@
             Bình Dương
           </li>
           <li>
-            <span class="font-semibold">Điện thoại:</span>
+            <span class="font-semibold">Điện thoại: </span>
             <a href="tel:0123456789" class="hover:text-orange-400"
               >0937 704 598</a
             >
